@@ -1,6 +1,7 @@
 const express = require("express");
 const dotENV = require("dotenv");
 const fs = require("fs");
+const mongoose = require("mongoose");
 
 dotENV.config();
 
